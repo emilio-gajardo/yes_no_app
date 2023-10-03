@@ -45,7 +45,7 @@ class _ChatView extends StatelessWidget {
                   final message = chatProvider.messageList[index];
 
                   return (message.fromWho == FromWho.hers)
-                      ? const HerMessageBubble(message: message)
+                      ? HerMessageBubble(message: message)
                       : MyMessageBubble(message: message);
                   //return (index % 2 == 0) ? const HerMessageBubble() : const MyMessageBubble();
                 },
