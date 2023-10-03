@@ -1,16 +1,22 @@
-# yes_no_app
+# 1. Datos de la aplicación
 
-A new Flutter project.
+- Nombre: yes_no_app
+- Fecha de creación: 2023-10-03
+- Lenguaje: Dart, [versión 3.1.2]
+- Framework: Flutter, [versión 3.13.4]
 
-## Getting Started
+# 2. Comandos gitbash:
+1. Listar todos los dispositivos disponibles: 
+```
+flutter devices
+```
 
-This project is a starting point for a Flutter application.
+2. Seleccionar un dispositivo específico:
+```
+flutter run -d device_id
+```
+3. Para cerrar la ejecución: [ctrl + c]
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 3. Uso de la app:
+1. Para que la app responda, debe enviarse un mensaje que termine con signo de pregunta "?"
+2. La app respondera con un mensaje de texto [si/no] y con un gif relacionado.
